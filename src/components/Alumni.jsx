@@ -46,7 +46,7 @@ const Alumni = () => {
         },
         {
           name: "Aryan Saxena",
-          branch: "N/A",
+          branch: "CSE",
           post: "Aarambh Coordinator",
           currentDesignation: "N/A",
           linkedin: "https://www.linkedin.com/in/aryan-s-543643203/",
