@@ -30,10 +30,10 @@ const Alumni = () => {
         },
         {
           name: "Vivek Kumar",
-          branch: "N/A",
+          branch: "ECE",
           post: "Vice Chair Finance",
-          currentDesignation: "N/A",
-          linkedin: "N/A",
+          currentDesignation: "SW at Qualcomm",
+          linkedin: "https://www.linkedin.com/in/vivek-kumar-9ba07a252/",
           image: "/Alumini/2026_batch/vvk.jpg",
         },
         {

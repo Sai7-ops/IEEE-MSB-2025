@@ -508,7 +508,7 @@ const Team = () => {
             className="hidden md:block w-full"
           >
             <div className="w-full max-w-7xl mx-auto px-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center">
+              <div className="flex flex-wrap justify-center gap-8">
                 <motion.div variants={item} className="w-full max-w-[18rem]">
                   <TeamImg
                     img="/team/Ayush.jpg"
@@ -812,7 +812,7 @@ const Team = () => {
             className="hidden md:block w-full"
           >
             <div className="w-full max-w-7xl mx-auto px-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center">
+              <div className="flex flex-wrap justify-center gap-8">
                 <motion.div variants={item} className="w-full max-w-[18rem]">
                   <TeamImg
                     img="/team/arnavM.jpg"
@@ -832,14 +832,6 @@ const Team = () => {
                     img="/team/mahimaM.jpg"
                     name="Mahima Mehra"
                     post="WIE Secretary"
-                  />
-                </motion.div>
-                <motion.div variants={item} className="w-full max-w-[18rem]">
-                  <TeamImg
-                    img="/team/anjaliM.png"
-                    name="Anjali Meena"
-                    post="Aarambh Secretary"
-                    objectPosition="center 4%"
                   />
                 </motion.div>
                 <motion.div variants={item} className="w-full max-w-[18rem]">
@@ -950,14 +942,6 @@ const Team = () => {
                 </motion.div>
                 <motion.div variants={item} className="w-full max-w-[18rem]">
                   <TeamImg
-                    img="/team/sushantD.jpg"
-                    name="Sushant Dwivedi"
-                    post="Joint Secretary ECE"
-                    objectPosition="center 70%"
-                  />
-                </motion.div>
-                <motion.div variants={item} className="w-full max-w-[18rem]">
-                  <TeamImg
                     img="/team/rishabhA.webp"
                     name="Rishabh Anand"
                     post="Technical Secretary EE"
@@ -984,15 +968,14 @@ const Team = () => {
                     post="Web Developement Secretary"
                   />
                 </motion.div>
-                <div className="md:col-span-3 lg:col-span-4 flex justify-center">
-                  <motion.div variants={item} className="w-full max-w-[18rem]">
-                    <TeamImg
-                      img="/team/sumayJ.png"
-                      name="Sumay Jain"
-                      post="Photography & Video Editing Secretary"
-                    />
-                  </motion.div>
-                </div>
+
+                <motion.div variants={item} className="w-full max-w-[18rem]">
+                  <TeamImg
+                    img="/team/sumayJ.png"
+                    name="Sumay Jain"
+                    post="Photography & Video Editing Secretary"
+                  />
+                </motion.div>
               </div>
             </div>
           </motion.div>
@@ -1030,13 +1013,6 @@ const Team = () => {
                 </motion.div>
                 <motion.div variants={item} className="w-full max-w-[18rem]">
                   <MobileTeamImg
-                    img="/team/anjaliM.png"
-                    name="Anjali Meena"
-                    post="Aarambh Secretary"
-                  />
-                </motion.div>
-                <motion.div variants={item} className="w-full max-w-[18rem]">
-                  <MobileTeamImg
                     img="/team/samarthK.jpg"
                     name="Samarth Khare"
                     post="Event Secretary"
@@ -1142,13 +1118,6 @@ const Team = () => {
                 </motion.div>
                 <motion.div variants={item} className="w-full max-w-[18rem]">
                   <MobileTeamImg
-                    img="/team/sushantD.jpg"
-                    name="Sushant Dwivedi"
-                    post="Joint Secretary ECE"
-                  />
-                </motion.div>
-                <motion.div variants={item} className="w-full max-w-[18rem]">
-                  <MobileTeamImg
                     img="/team/rishabhA.webp"
                     name="Rishabh Anand"
                     post="Technical Secretary EE"
@@ -1175,15 +1144,14 @@ const Team = () => {
                     post="Web Developement Secretary"
                   />
                 </motion.div>
-                <div className="col-span-2 flex justify-center">
-                  <motion.div variants={item} className="w-full max-w-[18rem]">
-                    <MobileTeamImg
-                      img="/team/sumayJ.png"
-                      name="Sumay Jain"
-                      post="Photography & Video Editing Secretary"
-                    />
-                  </motion.div>
-                </div>
+
+                <motion.div variants={item} className="col-span-2 w-full max-w-[18rem]">
+                  <MobileTeamImg
+                    img="/team/sumayJ.png"
+                    name="Sumay Jain"
+                    post="Photography & Video Editing Secretary"
+                  />
+                </motion.div>
               </div>
             </div>
           </motion.div>
